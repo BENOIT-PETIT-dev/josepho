@@ -6,7 +6,7 @@ Photokube app test for Josepho
 npm install
 ```
 
-## Run dev server
+### Run dev server
 ```
 parcel ./index.html
 ```
