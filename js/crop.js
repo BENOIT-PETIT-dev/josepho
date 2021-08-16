@@ -35,10 +35,12 @@ const setMergedImage = (croppedImage) => {
       newImage.className = 'final-photo';
       document.querySelector('.final-page main').appendChild(newImage);
       newImage.src = b64;
+      document.querySelector('.final-photo-link').href = b64;
     }
     else {
       let newImage = document.querySelector('.final-photo');
       newImage.src = b64;
+      document.querySelector('.final-photo-link').href = b64;
     }
   });
 }

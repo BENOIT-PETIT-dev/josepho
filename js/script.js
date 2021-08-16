@@ -4,7 +4,7 @@ let STATE = {
 
 const fileInput = document.querySelector('input[name="baseImage"]');
 const validateButton = document.querySelector('.submit-photo');
-const developAgainButton = document.querySelector('.develop-again button');
+const developAgainButton = document.querySelector('.develop-again');
 
 const initActivePage = () => {
   setActivePage(1);
@@ -32,4 +32,6 @@ validateButton.addEventListener('click', () => {
 
 developAgainButton.addEventListener('click', () => {
   setActivePage(1);
+  document.querySelector('.final-photo-link').href = '';
+  document.querySelector('.final-photo').src = '';
 })
