@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: normal;
+    color: #111;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, a, ol, ul, li, 
+form, label, article, aside, 
+figure, figcaption, footer, header, nav, section,
+audio, video {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+ol, ul {
+	list-style: none;
+}

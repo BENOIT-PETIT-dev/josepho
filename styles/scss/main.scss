@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'base';
+@import 'home';
+@import 'modifications';
+@import 'final';
+
+[data-page-active]:not([data-page-active=true]) {
+    display: none;
+}
